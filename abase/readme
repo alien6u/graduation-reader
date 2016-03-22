@@ -1,0 +1,34 @@
+
+
+
+abase 集成了本人常用的 util
+本来自己写了个几个基本框架 发现不太完善
+就从其他 开源项目中 直接参考过来
+
+参考了 afinal xutils androidannotations
+
+
+androidannotations 集成方式
+
+
+设置eclipse 预编译 annotations 即可 
+加入 compile-libs 里面的 jar 
+
+不懂可自行百度 
+
+
+
+#建议使用方式
+
+activity 方式 使用对象组装
+AActivity-->> AAdapter-->> ItemView<T>
+
+
+activity+viewpage  方式请使用
+
+AFragmentActivity-->>AFragmentPagerAdapter--->> AFragment --->>AAdapter-->>IitemView<T>
+
+
+
+
+
